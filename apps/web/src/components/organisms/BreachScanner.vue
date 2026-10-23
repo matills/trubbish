@@ -2,7 +2,7 @@
 import { computed, nextTick, onMounted, ref } from 'vue'
 import { storeToRefs } from 'pinia'
 import gsap from 'gsap'
-import { AccountSource, ScanStatus, type Breach } from '@borrar/shared'
+import { AccountSource, ScanStatus, type Breach } from '@trubbish/shared'
 import BaseButton from '@/components/atoms/BaseButton.vue'
 import FilmCountdown from '@/components/atoms/FilmCountdown.vue'
 import OpArt from '@/components/atoms/OpArt.vue'

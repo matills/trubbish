@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import { computed, ref } from 'vue'
-import type { DeletionRequest, RequestStatus } from '@borrar/shared'
+import type { DeletionRequest, RequestStatus } from '@trubbish/shared'
 import { requestsService, type CreateRequestInput } from '@/services'
 import { useAccountsStore } from './accounts'
 

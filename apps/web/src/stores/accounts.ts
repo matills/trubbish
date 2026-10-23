@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import { computed, ref } from 'vue'
-import type { AccountSource, AccountStatus, BulkImportResult, TrackedAccount } from '@borrar/shared'
+import type { AccountSource, AccountStatus, BulkImportResult, TrackedAccount } from '@trubbish/shared'
 import { accountsService, type CreateAccountInput, type UpdateAccountInput } from '@/services'
 
 export const useAccountsStore = defineStore('accounts', () => {

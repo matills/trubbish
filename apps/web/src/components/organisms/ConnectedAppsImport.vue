@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
-import { AccountSource } from '@borrar/shared'
+import { AccountSource } from '@trubbish/shared'
 import BaseButton from '@/components/atoms/BaseButton.vue'
 import BaseInput from '@/components/atoms/BaseInput.vue'
 import { errorMessage } from '@/services/api'

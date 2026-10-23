@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted, ref } from 'vue'
 import { storeToRefs } from 'pinia'
-import { Law, type DeletionRequest, type RequestStatus, type TrackedAccount } from '@borrar/shared'
+import { Law, type DeletionRequest, type RequestStatus, type TrackedAccount } from '@trubbish/shared'
 import BaseButton from '@/components/atoms/BaseButton.vue'
 import BaseInput from '@/components/atoms/BaseInput.vue'
 import RequestCard from '@/components/molecules/RequestCard.vue'

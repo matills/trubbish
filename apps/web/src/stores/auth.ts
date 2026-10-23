@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
-import type { Me, RequestCodeResponse } from '@borrar/shared'
+import type { Me, RequestCodeResponse } from '@trubbish/shared'
 import { ApiError } from '@/services/api'
 import { authService } from '@/services'
 

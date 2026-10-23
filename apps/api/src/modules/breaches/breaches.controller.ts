@@ -1,6 +1,6 @@
 import { Controller, Get, HttpCode, Post, UseGuards } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
-import type { BreachScan } from '@borrar/shared'
+import type { BreachScan } from '@trubbish/shared'
 import { CurrentUser, JwtAuthGuard, type SessionUser } from '../../common/auth'
 import { BreachesService } from './breaches.service'
 

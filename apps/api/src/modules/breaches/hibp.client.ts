@@ -1,7 +1,7 @@
 import { Injectable, Logger } from '@nestjs/common'
 import { ConfigService } from '@nestjs/config'
 import { createHash } from 'crypto'
-import type { Breach } from '@borrar/shared'
+import type { Breach } from '@trubbish/shared'
 
 interface HibpBreach {
   Name: string

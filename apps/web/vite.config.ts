@@ -8,7 +8,7 @@ export default defineConfig({
     alias: {
       '@': resolve(import.meta.dirname, './src'),
       // El front consume el contrato desde el fuente (ESM); la API usa el build CJS.
-      '@borrar/shared': resolve(import.meta.dirname, '../../packages/shared/src/index.ts'),
+      '@trubbish/shared': resolve(import.meta.dirname, '../../packages/shared/src/index.ts'),
     },
   },
   server: {

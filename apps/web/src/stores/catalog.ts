@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import { computed, ref } from 'vue'
-import type { CatalogEntry, Category } from '@borrar/shared'
+import type { CatalogEntry, Category } from '@trubbish/shared'
 import { catalogService } from '@/services'
 
 export const useCatalogStore = defineStore('catalog', () => {

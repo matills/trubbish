@@ -1,19 +1,19 @@
 {
-  "name": "borrar",
+  "name": "trubbish",
   "private": true,
   "packageManager": "pnpm@10.34.5",
   "scripts": {
-    "dev:api": "pnpm --filter @borrar/shared build && pnpm --filter @borrar/api dev",
-    "dev:web": "pnpm --filter @borrar/web dev",
+    "dev:api": "pnpm --filter @trubbish/shared build && pnpm --filter @trubbish/api dev",
+    "dev:web": "pnpm --filter @trubbish/web dev",
     "dev": "concurrently -n \"api,web\" -c \"cyan.bold,yellow.bold\" \"pnpm dev:api\" \"pnpm dev:web\"",
-    "build": "pnpm --filter @borrar/shared build && pnpm --filter @borrar/api build && pnpm --filter @borrar/web build",
-    "typecheck": "pnpm --filter @borrar/shared build && pnpm -r typecheck",
-    "test": "pnpm --filter @borrar/shared build && pnpm -r test",
+    "build": "pnpm --filter @trubbish/shared build && pnpm --filter @trubbish/api build && pnpm --filter @trubbish/web build",
+    "typecheck": "pnpm --filter @trubbish/shared build && pnpm -r typecheck",
+    "test": "pnpm --filter @trubbish/shared build && pnpm -r test",
     "docker:up": "docker compose up -d",
     "docker:down": "docker compose down",
-    "db:generate": "pnpm --filter @borrar/api db:generate",
-    "db:migrate": "pnpm --filter @borrar/api db:migrate",
-    "db:seed": "pnpm --filter @borrar/api db:seed"
+    "db:generate": "pnpm --filter @trubbish/api db:generate",
+    "db:migrate": "pnpm --filter @trubbish/api db:migrate",
+    "db:seed": "pnpm --filter @trubbish/api db:seed"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"

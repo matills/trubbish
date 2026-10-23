@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
 import { storeToRefs } from 'pinia'
-import { AccountSource, Category, type CatalogEntry } from '@borrar/shared'
+import { AccountSource, Category, type CatalogEntry } from '@trubbish/shared'
 import BaseButton from '@/components/atoms/BaseButton.vue'
 import BaseInput from '@/components/atoms/BaseInput.vue'
 import ServiceRow from '@/components/molecules/ServiceRow.vue'

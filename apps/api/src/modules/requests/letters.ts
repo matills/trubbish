@@ -1,4 +1,4 @@
-import { Law } from '@borrar/shared'
+import { Law } from '@trubbish/shared'
 
 export interface LetterInput {
   law: Law

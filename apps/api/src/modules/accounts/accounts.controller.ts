@@ -1,6 +1,6 @@
 import { Body, Controller, Delete, Get, HttpCode, Param, ParseIntPipe, Patch, Post, Query, UseGuards } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
-import type { AccountStats, BulkImportResult, TrackedAccount } from '@borrar/shared'
+import type { AccountStats, BulkImportResult, TrackedAccount } from '@trubbish/shared'
 import { CurrentUser, JwtAuthGuard, type SessionUser } from '../../common/auth'
 import { AccountsService } from './accounts.service'
 import { AccountsQueryDto, BulkImportDto, CreateAccountDto, UpdateAccountDto } from './dto/accounts.dto'

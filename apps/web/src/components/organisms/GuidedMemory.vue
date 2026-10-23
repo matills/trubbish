@@ -2,7 +2,7 @@
 import { computed, ref } from 'vue'
 import { storeToRefs } from 'pinia'
 import gsap from 'gsap'
-import { AccountSource, type CatalogEntry, type Category } from '@borrar/shared'
+import { AccountSource, type CatalogEntry, type Category } from '@trubbish/shared'
 import BaseButton from '@/components/atoms/BaseButton.vue'
 import BaseCheckbox from '@/components/atoms/BaseCheckbox.vue'
 import { useGsap } from '@/composables/motion/useGsap'

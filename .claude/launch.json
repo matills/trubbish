@@ -4,13 +4,13 @@
     {
       "name": "web",
       "runtimeExecutable": "pnpm",
-      "runtimeArgs": ["--filter", "@borrar/web", "dev"],
+      "runtimeArgs": ["--filter", "@trubbish/web", "dev"],
       "port": 5174
     },
     {
       "name": "api",
       "runtimeExecutable": "pnpm",
-      "runtimeArgs": ["--filter", "@borrar/api", "dev"],
+      "runtimeArgs": ["--filter", "@trubbish/api", "dev"],
       "port": 3010
     }
   ]

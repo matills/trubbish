@@ -127,7 +127,7 @@ Los revisores leen código; esto lo **ejecuta**. Corre antes (o en paralelo) a l
 
 1. `pnpm lint`, `pnpm typecheck` y `pnpm test` (todo en verde).
 2. **Suite E2E con Playwright** (`apps/e2e`, ver `docs/E2E.md`): `pnpm e2e`.
-   - Requisitos: Postgres y Redis arriba (`pnpm docker:up`), migraciones aplicadas (`pnpm db:migrate`) y Chromium instalado (`pnpm --filter @borrar/e2e exec playwright install chromium`). La suite levanta su propia API (puerto 3300) y su front (5180), sin tocar `pnpm dev`, y crea/borra solo su usuario y sus listas `E2E ...`.
+   - Requisitos: Postgres y Redis arriba (`pnpm docker:up`), migraciones aplicadas (`pnpm db:migrate`) y Chromium instalado (`pnpm --filter @trubbish/e2e exec playwright install chromium`). La suite levanta su propia API (puerto 3300) y su front (5180), sin tocar `pnpm dev`, y crea/borra solo su usuario y sus listas `E2E ...`.
    - Cualquier prueba E2E que falle es **Major como mínimo**; si falla el humo (`smoke`), la autenticación o una ruta que antes andaba, es **Critical** (bloquea el merge). Una prueba intermitente (`flaky`) se reporta como Minor con su nombre.
    - Si el diff agrega o cambia una pantalla, flujo o endpoint y la suite no lo cubre, es un hallazgo **Major** ("falta prueba E2E de ...") y se agrega la prueba en `apps/e2e/tests` antes de dar Go.
 3. Tras un cambio de red o de despliegue (host de `listen`, puertos, nginx, healthchecks, Docker), validarlo con el **stack real** en Docker y desde un segundo contenedor de la misma red, no con un servidor de reemplazo: Fastify sin host escucha solo en loopback y el healthcheck de adentro del contenedor pasa igual.

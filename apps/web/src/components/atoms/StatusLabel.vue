@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { AccountStatus } from '@borrar/shared'
+import type { AccountStatus } from '@trubbish/shared'
 import { STATUS_LABEL } from '@/utils/labels'
 
 defineProps<{ status: AccountStatus }>()

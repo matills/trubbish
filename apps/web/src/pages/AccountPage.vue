@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { AccountStatus, Difficulty, SENSITIVE_CATEGORIES, type TrackedAccount } from '@borrar/shared'
+import { AccountStatus, Difficulty, SENSITIVE_CATEGORIES, type TrackedAccount } from '@trubbish/shared'
 import BaseButton from '@/components/atoms/BaseButton.vue'
 import BaseInput from '@/components/atoms/BaseInput.vue'
 import DifficultyDots from '@/components/atoms/DifficultyDots.vue'

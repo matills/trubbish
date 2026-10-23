@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
-import { ScanStatus, type BreachScan } from '@borrar/shared'
+import { ScanStatus, type BreachScan } from '@trubbish/shared'
 import { breachesService } from '@/services'
 
 const POLL_MS = 1500

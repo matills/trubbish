@@ -1,4 +1,4 @@
-import type { Category, Difficulty } from '@borrar/shared'
+import type { Category, Difficulty } from '@trubbish/shared'
 
 // Catálogo de la Fase 0. Los enlaces se cargaron a mano y los sitios los cambian
 // seguido: si un enlace no lleva a la página de borrado, `deleteUrl` apunta a la

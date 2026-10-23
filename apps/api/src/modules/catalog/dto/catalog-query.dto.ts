@@ -1,6 +1,6 @@
 import { ApiPropertyOptional } from '@nestjs/swagger'
 import { IsIn, IsOptional, IsString, MaxLength } from 'class-validator'
-import { Category } from '@borrar/shared'
+import { Category } from '@trubbish/shared'
 
 export class CatalogQueryDto {
   @ApiPropertyOptional()

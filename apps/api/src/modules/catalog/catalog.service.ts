@@ -1,6 +1,6 @@
 import { Inject, Injectable, NotFoundException } from '@nestjs/common'
 import { asc } from 'drizzle-orm'
-import type { CatalogEntry, Category } from '@borrar/shared'
+import type { CatalogEntry, Category } from '@trubbish/shared'
 import { DRIZZLE, type Database } from '../../database/database.module'
 import { catalogServices } from '../../database/schema'
 

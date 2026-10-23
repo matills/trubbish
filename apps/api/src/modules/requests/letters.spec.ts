@@ -1,4 +1,4 @@
-import { Law } from '@borrar/shared'
+import { Law } from '@trubbish/shared'
 import { buildLetter, dueDate } from './letters'
 
 const base = {

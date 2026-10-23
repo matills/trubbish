@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import type { Difficulty } from '@borrar/shared'
+import type { Difficulty } from '@trubbish/shared'
 import { DIFFICULTY_LABEL, DIFFICULTY_LEVEL } from '@/utils/labels'
 
 const props = defineProps<{ difficulty: Difficulty; showLabel?: boolean }>()

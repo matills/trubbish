@@ -13,7 +13,7 @@ import {
   ValidateIf,
   ValidateNested,
 } from 'class-validator'
-import { AccountSource, AccountStatus } from '@borrar/shared'
+import { AccountSource, AccountStatus } from '@trubbish/shared'
 
 export class CreateAccountDto {
   @ApiPropertyOptional({ description: 'Servicio del catálogo. Si falta, se usa `domain`.' })

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { RouterLink } from 'vue-router'
-import { AccountStatus, type TrackedAccount } from '@borrar/shared'
+import { AccountStatus, type TrackedAccount } from '@trubbish/shared'
 import DifficultyDots from '@/components/atoms/DifficultyDots.vue'
 import RubberStamp from '@/components/atoms/RubberStamp.vue'
 import StatusLabel from '@/components/atoms/StatusLabel.vue'

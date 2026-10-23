@@ -1,6 +1,6 @@
 import { Inject, Injectable, NotFoundException } from '@nestjs/common'
 import { and, desc, eq } from 'drizzle-orm'
-import { AccountStatus, RequestStatus, type DeletionRequest, type Law } from '@borrar/shared'
+import { AccountStatus, RequestStatus, type DeletionRequest, type Law } from '@trubbish/shared'
 import type { SessionUser } from '../../common/auth'
 import { CryptoService } from '../../common/crypto.service'
 import { DRIZZLE, type Database } from '../../database/database.module'

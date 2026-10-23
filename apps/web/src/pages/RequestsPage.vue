@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted, ref } from 'vue'
 import { storeToRefs } from 'pinia'
-import { RequestStatus, type DeletionRequest } from '@borrar/shared'
+import { RequestStatus, type DeletionRequest } from '@trubbish/shared'
 import BaseButton from '@/components/atoms/BaseButton.vue'
 import RequestCard from '@/components/molecules/RequestCard.vue'
 import { errorMessage } from '@/services/api'

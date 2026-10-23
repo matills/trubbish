@@ -11,7 +11,7 @@ import type {
   RequestCodeResponse,
   RequestStatus,
   TrackedAccount,
-} from '@borrar/shared'
+} from '@trubbish/shared'
 import { api } from './api'
 
 export const authService = {

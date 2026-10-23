@@ -8,7 +8,7 @@ import {
   type BulkImportResult,
   type CatalogEntry,
   type TrackedAccount,
-} from '@borrar/shared'
+} from '@trubbish/shared'
 import { CryptoService } from '../../common/crypto.service'
 import { nameFromDomain, normalizeDomain } from '../../common/domain'
 import { DRIZZLE, type Database } from '../../database/database.module'

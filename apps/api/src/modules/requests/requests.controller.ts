@@ -2,7 +2,7 @@ import { Body, Controller, Delete, Get, HttpCode, Param, ParseIntPipe, Patch, Po
 import { ApiTags } from '@nestjs/swagger'
 import { Type } from 'class-transformer'
 import { IsInt, IsOptional, Min } from 'class-validator'
-import type { DeletionRequest } from '@borrar/shared'
+import type { DeletionRequest } from '@trubbish/shared'
 import { CurrentUser, JwtAuthGuard, type SessionUser } from '../../common/auth'
 import { CreateRequestDto, UpdateRequestDto } from './dto/requests.dto'
 import { RequestsService } from './requests.service'

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue'
-import { RequestStatus, type DeletionRequest } from '@borrar/shared'
+import { RequestStatus, type DeletionRequest } from '@trubbish/shared'
 import BaseButton from '@/components/atoms/BaseButton.vue'
 import TypewriterText from '@/components/atoms/TypewriterText.vue'
 import { LAW_LABEL, REQUEST_STATUS_LABEL, daysUntil, formatDate } from '@/utils/labels'

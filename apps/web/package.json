@@ -1,5 +1,5 @@
 {
-  "name": "@borrar/web",
+  "name": "@trubbish/web",
   "version": "0.0.1",
   "private": true,
   "type": "module",
@@ -11,7 +11,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@borrar/shared": "workspace:*",
+    "@trubbish/shared": "workspace:*",
     "@fontsource-variable/archivo": "^5.2.6",
     "@fontsource/courier-prime": "^5.2.6",
     "@fontsource/dm-serif-display": "^5.2.6",

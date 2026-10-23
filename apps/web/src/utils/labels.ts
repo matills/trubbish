@@ -1,4 +1,4 @@
-import type { AccountSource, AccountStatus, Category, Difficulty, Law, RequestStatus } from '@borrar/shared'
+import type { AccountSource, AccountStatus, Category, Difficulty, Law, RequestStatus } from '@trubbish/shared'
 
 export const STATUS_LABEL: Record<AccountStatus, string> = {
   TO_REVIEW: 'Por revisar',

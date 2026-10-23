@@ -1,6 +1,6 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger'
 import { IsEmail, IsIn, IsInt, IsOptional, IsString, Matches, MaxLength, Min, MinLength } from 'class-validator'
-import { Law, RequestStatus } from '@borrar/shared'
+import { Law, RequestStatus } from '@trubbish/shared'
 
 export class CreateRequestDto {
   @ApiProperty()

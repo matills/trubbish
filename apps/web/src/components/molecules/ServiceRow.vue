@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { CatalogEntry } from '@borrar/shared'
+import type { CatalogEntry } from '@trubbish/shared'
 import DifficultyDots from '@/components/atoms/DifficultyDots.vue'
 import { CATEGORY_LABEL } from '@/utils/labels'
 

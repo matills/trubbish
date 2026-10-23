@@ -1,6 +1,6 @@
 import { Controller, Get, Param, ParseIntPipe, Query } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
-import type { CatalogEntry } from '@borrar/shared'
+import type { CatalogEntry } from '@trubbish/shared'
 import { CatalogService } from './catalog.service'
 import { CatalogQueryDto } from './dto/catalog-query.dto'
 
