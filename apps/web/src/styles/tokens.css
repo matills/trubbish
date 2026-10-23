@@ -1,0 +1,35 @@
+/* Única fuente de color del proyecto: papel y tinta (ver docs/DESIGN.md). */
+:root {
+  --paper: #f2efe8;
+  --ink: #0d0d0d;
+  --ink-70: rgb(13 13 13 / 0.7);
+  --ink-40: rgb(13 13 13 / 0.4);
+  --ink-10: rgb(13 13 13 / 0.1);
+
+  --font-display: 'Archivo Variable', 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+  --font-serif: 'DM Serif Display', Georgia, serif;
+  --font-mono: 'Courier Prime', 'Courier New', monospace;
+
+  --border: 2px solid var(--ink);
+  --border-dashed: 2px dashed var(--ink);
+  --shadow: 4px 4px 0 var(--ink);
+  --shadow-lg: 8px 8px 0 var(--ink);
+
+  --gutter: clamp(16px, 4vw, 48px);
+  --max: 1200px;
+
+  --ease-out: cubic-bezier(0.215, 0.61, 0.355, 1);
+  --ease-in: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+
+  color-scheme: light;
+}
+
+/* "Negativo de película": se invierte, no se rediseña. */
+:root[data-theme='negative'] {
+  --paper: #0d0d0d;
+  --ink: #f2efe8;
+  --ink-70: rgb(242 239 232 / 0.7);
+  --ink-40: rgb(242 239 232 / 0.4);
+  --ink-10: rgb(242 239 232 / 0.1);
+  color-scheme: dark;
+}

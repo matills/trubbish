@@ -58,7 +58,7 @@ Solo blanco y negro. Nada de acentos, nada de colores semánticos.
 | `TO_REVIEW` por revisar | Ficha con borde sólido, fondo papel |
 | `KEEP` conservar | Borde punteado + clip "CONSERVAR" |
 | `IN_PROGRESS` en proceso | Fondo con rayas diagonales animadas lentamente |
-| `DELETED` borrada | Nombre tachado + sello circular "BORRADA" girado, ficha invertida |
+| `DELETED` borrada | Sello circular "BORRADA" girado (sin tachar el nombre: el sello ya lo dice) |
 
 Dificultad de borrado: escala de 1 a 4 puntos llenos/vacíos (●●○○) más la etiqueta en texto.
 
